@@ -10,10 +10,8 @@ public class Product {
     private String name;
     private double price;
 
-    // Constructor vacío
     public Product() {}
 
-    // Constructor con parámetros
     public Product(int id, String name, double price) {
         this.id = id;
         this.name = name;
@@ -30,4 +28,3 @@ public class Product {
     public double getPrice() { return price; }
     public void setPrice(double price) { this.price = price; }
 }
-

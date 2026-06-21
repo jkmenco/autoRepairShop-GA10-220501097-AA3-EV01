@@ -11,9 +11,9 @@ import java.util.List;
 import com.autorepairshop.model.Product;
 
 public class ProductDAO {
-    private String jdbcURL = "jdbc:mysql://localhost:3306/autoRepairShop";
-    private String jdbcUsername = "root";
-    private String jdbcPassword = "tu_password";
+	private String jdbcURL = "jdbc:mysql://localhost:3306/autoRepairShop?useSSL=false&serverTimezone=UTC";
+	private String jdbcUsername = "root";
+	private String jdbcPassword = "5070";
 
     private static final String SELECT_ALL_PRODUCTS = "SELECT * FROM products";
 

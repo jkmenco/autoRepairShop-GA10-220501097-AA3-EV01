@@ -14,16 +14,17 @@ La aplicación simula una **tienda de refacciones y reparaciones para autos**, c
 
 ## Estructura del proyecto
 autoRepairShop/
-├── src/main/java
-│    ├── com.autorepairshop.controller
-│    ├── com.autorepairshop.model
-│    └── com.autorepairshop.dao
-├── src/main/webapp
-│    ├── WEB-INF/web.xml
-│    ├── views/
-│    │     ├── products.jsp
-│    │     ├── repairs.jsp
-│    │     └── login.jsp
-│    └── index.jsp
-├── pom.xml
-└── target/
+autoRepairShop/
+ ├── java
+ │    ├── com.autorepairshop.controller
+ │    ├── com.autorepairshop.dao
+ │    └── com.autorepairshop.model
+ ├── src/main/webapp
+ │    ├── WEB-INF
+ │    │     └── web.xml
+ │    ├── views
+ │    │     └── products.jsp
+ │    │     └── repairs.jsp
+ │    └── index.jsp
+ ├── pom.xml
+ └── target/
